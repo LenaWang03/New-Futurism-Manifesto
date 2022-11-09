@@ -1,28 +1,46 @@
 body {
     color:white;
-    background-image: linear-gradient(90deg, black 30%, grey);
+    background-image: linear-gradient(90deg, #1F1F1F 30%, grey);
     font-family: Tahoma, sans-serif;
+}
+
+p {
+    text-align: center;
+    margin: 15px 250px;
 }
 
 gradientFont{
     display: inline-block;
     vertical-align: middle;
+    text-align: center;
     background-image: linear-gradient(45deg, #99E28C 30%, #DFE16C);
-    background-clip: text;
+    -webkit-background-clip: text; /* remove -webkit- before pushing */
     color: transparent;
-    font-size: 100px;
+    font-size: 50px;
     font-weight:900;
 }
 
-gradientFont:hover:before {
+gradientFont small{
+    font-size: 25px;
+}
+
+gradientFont :hover:before {
     color: WHITE;
     text-decoration: line-through;
     transition: 0.3s;
+}
+
+gradientFont creation:hover:before {
+    content: "DESTRUCTION"
+}
+
+gradientFont inclusion:hover:before {
     content: "EXCLUSION"
 }
 
 gradientFont:hover span{
     display: none;
+    text-align: center;
 }
 
 
