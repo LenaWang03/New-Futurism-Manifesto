@@ -1,6 +1,6 @@
 body {
     color:white;
-    background-image: linear-gradient(90deg, #1F1F1F 30%, grey);
+    background-image: linear-gradient(90deg, #1F1F1F 30%, black);
     font-family: Tahoma, sans-serif;
 }
 
@@ -14,7 +14,7 @@ gradientFont{
     vertical-align: middle;
     text-align: center;
     background-image: linear-gradient(45deg, #99E28C 30%, #DFE16C);
-    -webkit-background-clip: text; /* remove -webkit- before pushing */
+    background-clip: text; /* remove -webkit- before pushing */
     color: transparent;
     font-size: 50px;
     font-weight:900;
@@ -42,6 +42,14 @@ gradientFont:hover span{
     display: none;
     text-align: center;
 }
+
+.footer1{
+    background-image: linear-gradient(45deg, #99E28C 30%, #DFE16C);
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+
 
 
 
