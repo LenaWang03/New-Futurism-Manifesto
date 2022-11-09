@@ -45,6 +45,10 @@ gradientFont:hover span{
 .rectContent {
     border: 2px solid #99E28C;
     margin: 0px 0px 20px 0px;
+    border-color: #DFE16C;
+    border-width: 4px;
+    border-style: solid;
+    box-shadow: 0 0 10px #99E28C, 0 0 10px #99E28C, 1px 1px 3px white;
 }
 
 
@@ -99,12 +103,62 @@ bigger {
     font-size: 50px;
 }
 
+bigger2 {
+    font-size: 30px;
+}
+
 bolder {
     font-weight: bold;
 }
 
 .spacing {
-    padding: 100px 0px 100px 0px;
+    padding: 200px 0px 200px 0px;
 }
 
+.threeDiv {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.glowContainer { 
+    padding: 20px;
+    margin: 20px;
+    border-color: #DFE16C;
+    border-width: 4px;
+    border-style: solid;
+    box-shadow: 0 0 20px #99E28C, 0 0 20px #99E28C, 1px 1px 3px white;
+    height: 200px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.actionRight{
+    padding-top: 13%;
+    text-align: right;
+    border: 2px solid red;
+}
+
+.action{
+    padding-top: 12%;
+    border: 2px solid red;
+}
+
+.actionItems{
+    display: flex;
+    justify-content: center;
+    padding: 100px 0px 100px 0px;
+    border: 2px solid red;
+
+}
+regular{
+    text-align: left;
+    line-height: 2;
+}
+
+left{
+    text-align: left;
+}
 
