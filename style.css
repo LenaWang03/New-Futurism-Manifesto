@@ -1,3 +1,29 @@
 body {
-    color:red;
+    color:white;
+    background-image: linear-gradient(90deg, black 30%, grey);
+    font-family: Tahoma, sans-serif;
 }
+
+gradientFont{
+    display: inline-block;
+    vertical-align: middle;
+    background-image: linear-gradient(45deg, #99E28C 30%, #DFE16C);
+    background-clip: text;
+    color: transparent;
+    font-size: 100px;
+    font-weight:900;
+}
+
+gradientFont:hover:before {
+    color: WHITE;
+    text-decoration: line-through;
+    transition: 0.3s;
+    content: "EXCLUSION"
+}
+
+gradientFont:hover span{
+    display: none;
+}
+
+
+
