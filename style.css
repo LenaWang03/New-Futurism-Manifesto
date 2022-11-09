@@ -138,19 +138,16 @@ bolder {
 .actionRight{
     padding-top: 13%;
     text-align: right;
-    border: 2px solid red;
 }
 
 .action{
     padding-top: 12%;
-    border: 2px solid red;
 }
 
 .actionItems{
     display: flex;
     justify-content: center;
     padding: 100px 0px 100px 0px;
-    border: 2px solid red;
 
 }
 regular{
