@@ -42,10 +42,24 @@ gradientFont:hover span{
     text-align: center;
 }
 
+.rectContent {
+    border: 2px solid #99E28C;
+    margin: 0px 0px 20px 0px;
+}
+
+
+.point1 img{
+    float: left;
+}
+
 .sectionHeader {
     position: relative;
     text-align: center;
     padding: 200px 0px 200px 0px;
+}
+
+.sectionHeader img {
+    opacity: 0.7;
 }
 
 .sectionTitle {
