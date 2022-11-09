@@ -96,7 +96,8 @@ black {
 }
 
 .content {
-    padding: 300px;
+    padding: 100px 300px 300px 300px;
+
 }
 
 bigger {
@@ -157,5 +158,10 @@ regular{
 
 left{
     text-align: left;
+}
+
+.centre{
+    display: flex;
+    justify-content: center;
 }
 
