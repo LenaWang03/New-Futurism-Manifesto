@@ -47,6 +47,11 @@ gradientFont:hover span{
     margin: 0px 0px 20px 0px;
 }
 
+
+.point1 img{
+    float: left;
+}
+
 .sectionHeader {
     position: relative;
     text-align: center;
