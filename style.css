@@ -45,6 +45,7 @@ gradientFont:hover span{
 .sectionHeader {
     position: relative;
     text-align: center;
+    padding: 200px 0px 200px 0px;
 }
 
 .sectionTitle {
@@ -80,6 +81,16 @@ black {
     padding: 300px;
 }
 
+bigger {
+    font-size: 50px;
+}
 
+bolder {
+    font-weight: bold;
+}
+
+.spacing {
+    padding: 200px 0px 200px 0px;
+}
 
 
