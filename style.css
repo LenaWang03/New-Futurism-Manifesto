@@ -6,7 +6,6 @@ body {
 
 p {
     text-align: center;
-    margin: 15px 250px;
 }
 
 gradientFont{
@@ -56,7 +55,7 @@ gradientFont:hover span{
     width: 100%;
 }
 
-.footer1{
+.footer {
     background-image: linear-gradient(45deg, #99E28C 30%, #DFE16C);
     height: 300px;
     display: flex;
@@ -67,7 +66,18 @@ gradientFont:hover span{
 
 .footer img {
     width: 100px;
-    padding: 50px;
+    padding: 30px;
+}
+
+black {
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+
+}
+
+.content {
+    padding: 300px;
 }
 
 
